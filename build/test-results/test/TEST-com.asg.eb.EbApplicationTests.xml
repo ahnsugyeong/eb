@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.asg.eb.EbApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-24T13:18:44" hostname="ansugyeong-ui-MacBookPro.local" time="0.655">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.asg.eb.EbApplicationTests" time="0.655"/>
+  <system-out><![CDATA[22:18:43.261 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.asg.eb.EbApplicationTests]: EbApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:18:43.322 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.asg.eb.EbApplication for test class com.asg.eb.EbApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-24T22:18:43.610+09:00  INFO 49545 --- [    Test worker] com.asg.eb.EbApplicationTests            : Starting EbApplicationTests using Java 17.0.2 with PID 49545 (started by ahnsugyeong in /Users/ahnsugyeong/Desktop/elastic_beanstalk/eb)
+2023-11-24T22:18:43.612+09:00  INFO 49545 --- [    Test worker] com.asg.eb.EbApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2023-11-24T22:18:44.629+09:00  INFO 49545 --- [    Test worker] com.asg.eb.EbApplicationTests            : Started EbApplicationTests in 1.196 seconds (process running for 1.961)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
