@@ -8,4 +8,10 @@ public class TestConverter {
                 .test("Hello World!")
                 .build();
     }
+
+    public static TestResponse.TestExceptionDto toTestExceptionDto(Integer flag) {
+        return TestResponse.TestExceptionDto.builder()
+                .flag(flag)
+                .build();
+    }
 }
